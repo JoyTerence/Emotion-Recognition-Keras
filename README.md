@@ -1,9 +1,9 @@
 # Emotion-Recognition-Keras
 Emotion Recognition with KERAS.
 
-This repo is for creating a CNN that can recognize emotions from images/webcam feed.
+This repo is for creating a CNN using Keras, that can recognize emotions from images/webcam feed.
 
-CNN has been created using KERAS (chosen for it's quick and ease of use).
+KERAS was chosen for it's quick and ease of use.
 
 Trained model is saved in my_model.h5
 
@@ -26,6 +26,7 @@ MaxPool         -> (2, 2)
 Fully Connected -> 256
 Fully Connected -> 64
 Output layers   -> 6
+
 Activation used -> Relu
 Optimizer       -> Adam
 Loss Function   -> Categorical Cross Entropy
